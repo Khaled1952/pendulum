@@ -1,0 +1,59 @@
+.logo{
+	margin-bottom: -2px;
+	border-bottom: 1px solid #dfdfdf;
+}
+.top-head{
+	border-bottom: 1px solid #dfdfdf;
+}
+.top-head h1{
+	font-size: 30px;
+	font-family: helvetica-light;
+	font-weight: lighter;
+	padding-left: 35px;
+	padding-top: 30px;
+	padding-bottom: 5px;
+}
+.main-head h4{
+	text-align: center;
+	font-size: 25px;
+	font-family: arial;
+	padding-top: 45px;
+	font-weight: lighter;
+}
+.main-head p{
+	margin-top: 12px;
+	text-align: center;
+	padding: 0px 295px;
+	line-height: 20px;
+	font-family: arial;
+	font-size: 13px;
+}
+.main-head img{
+	margin: 54px 95px; 
+}
+.main-para{
+	justify-content: space-around;
+	display: flex;
+}
+.left-para{
+	flex-basis: 290px;
+}
+.mdl-para{
+	flex-basis: 290px;
+}
+.right-para{
+	flex-basis: 290px;
+}
+.up-para{
+	font-family: arial;
+	font-size: 16px;
+	line-height: 25px;
+	text-align: left;
+	padding-bottom: 20px;
+}
+.down-para{
+	line-height: 20px;
+	font-size: 13px;
+	font-family: helvetica-light;
+	padding-bottom: 40px;
+}

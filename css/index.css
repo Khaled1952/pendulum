@@ -1,0 +1,67 @@
+main{
+	display: flex;
+	flex-direction: column;
+}
+.ctop{
+	flex-basis: 413px;
+}
+.ctop img{
+	height: 413px;
+	position: absolute;
+}
+.cmdl{
+	flex-basis: 331px;
+	background-color: #d2d1d0;
+	display: flex;
+}
+
+
+.mdlcmn{
+	background-color: #D2D1D0;
+	flex-basis: 470px;
+	text-align: center;
+}
+.mdlcmn p{
+	text-align: center;
+	padding: 10px 50px;}
+.mdlcmn img{
+	padding-top:10px;
+}
+
+.cbtm{
+	flex-basis: 431px;
+	display: flex;
+}
+.cbtm-left{
+	flex: 1;
+	background-color: #ffffff;
+	display: flex;
+}
+.cbtm-left img {
+	margin: auto;
+}
+.cbtm-right{
+	flex: 1;
+}
+.cbtm-right h1{
+	padding-top: 56px;
+	text-align: left;
+	font-family: Helvetica-Light;
+}
+.paragraph{
+	width: 330px;
+}
+.button{
+	padding-top: 30px;
+}
+.cbtm-right a{
+	text-decoration: none;
+	padding: 10px 30px;
+	background: red;
+	background: linear-gradient(to top, #17BEEE, #029ECA);
+	border-radius: 8px;
+	font-family: Helvetica-Light;
+	margin-top: 30px;
+	color: white;
+}
+.cbtm-right a:hover{}

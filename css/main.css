@@ -1,0 +1,175 @@
+/*------Body------*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	
+	background-image: url('../images/bodybg.jpg');
+	background-attachment: fixed;
+	font-family: Helvetica-Light;
+}
+
+
+/*--------CONTAINER---------*/
+.container{
+	width: 980px;
+	height: 1640px;
+	margin: 0 auto;
+	background-color: white;
+}
+h1{
+	font-size: 25px;
+	color: black;
+	margin-bottom: 20px;
+}
+h4{
+	font-size: 20px;
+	color: #666666;
+}
+p{
+	font-size: 16;
+	color: #666666;
+	line-height: 32px;
+}
+
+
+/*------HEADER------*/
+header{
+	height: 143px;
+	display: flex;
+}
+.logo{
+	flex-basis: 247px;
+	display: flex;
+}
+.logo img{
+	margin: auto;
+}
+.h-right{
+	flex-basis: 733px;
+	display: flex;
+	flex-direction: column;
+}
+nav{
+	flex-basis: 105px;
+}
+ul{
+	list-style-type: none;
+	float: right;
+}
+ul li{
+	display: inline-block;
+	line-height: 105px;
+	margin-right: 40px;
+}
+
+ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: arial;
+	color: #010000;
+	font-weight: bold;
+}
+ul li a:hover{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: arial;
+	color: #41bfd6;
+	font-weight: bold;
+}
+.social-bar{
+	flex-basis: 38px;
+	background-color: #dfdfdf;
+}
+.social-bar p{
+	margin-left: 16px;
+	font-family: arial;
+	font-size: 12px;
+	line-height: 38px;
+	display: inline-block;
+}
+.social_profiles{
+	display: inline-block;
+	float: right;
+}
+.social_profiles img{
+	margin-right: 10px;
+	margin-top: 6px;
+}
+.social_profiles img:hover{
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+/*------FOOTER------*/
+footer{
+	font-family: Helvetica;
+	height: 322px;
+	background: #383838;
+	display: flex;
+	flex-direction: column;
+}
+.footer_top{
+	flex-basis: 282px;
+	display: flex;
+	justify-content: space-around;
+}
+.footer_top p{
+	text-align: justify;
+}
+.footer_top h4{
+	font-family: Helvetica;
+	font-weight: lighter;
+	color: #fffefe;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.left{
+	flex-basis: 284px;
+}
+.middle{
+	flex-basis: 284px;
+}
+.right{
+	flex-basis: 284px;
+}
+
+.footer-right{
+	width: 284px;
+	height: 220px;
+}
+.footer-img{
+	width: 100px;
+	height: 220px;
+	float: left;
+}
+.footer-img img{
+	border: 2px solid #313131;
+	margin-top:10px;
+	margin-bottom: 30px;
+}
+.footer-cnt{
+	width: 180px;
+	height: auto;
+	display: inline-block;
+	float: right;
+}
+footer p{
+	line-height: 28px;
+	font-size: 13px;
+	text-align: left;
+}
+
+.footer_copyright{
+	flex-basis: 40px;
+	background-color: #303030;
+
+}
+.footer_copyright p{
+	margin-left: 37px;
+	line-height: 40px;
+	color: white;
+}

@@ -1,0 +1,157 @@
+.logo{
+	border-bottom: 1px solid #dfdfdf;
+	margin-bottom: -2px;
+}
+.top-head{
+	border-bottom: 1px solid #dfdfdf;
+}
+.top-head h1{
+	font-size: 30px;
+	font-family: helvetica-light;
+	font-weight: lighter;
+	color: #a5a9ad;
+	padding-top: 26px;
+	padding-left: 35px;
+}
+.main-container{
+	display: grid;
+	grid-template-columns: 245px 245px 245px 245px;
+	grid-template-areas: 
+	"services services services stationary"
+	"branding branding branding stationary"
+	"allsite allsite allsite stationary";
+	    padding-bottom: 82px;
+}
+.services{
+	grid-area: services;
+}
+.services h4{
+	font-size: 40px;
+	font-family: helvetica-light;
+	font-weight: lighter;
+	padding-top: 25px;
+	padding-left: 39px;
+}
+.services p{
+	font-size: 16px;
+	padding-left: 39px;
+}
+.stationary{
+	grid-area: stationary;
+	border-left: 1px solid #dfdfdf;
+
+}
+.stationary h5{
+	font-size: 20px;
+	font-family: helvetica-light;
+	font-weight: lighter;
+	padding-top: 27px;
+	padding-left: 17px;
+}
+.stationary p{
+	padding-top: 20px;
+	padding-left: 17px;
+	font-family: helvetica-light;
+	font-size: 16px;
+	padding-right: 17px;
+	text-align: left;
+	padding-bottom: 70px;
+}
+.contact-nav p{
+	border-top: 1px solid #dfdfdf;
+	padding-bottom: 3px;
+	padding-left: 0px;
+}
+.contact-nav{
+	width: 230px;
+	margin-left: 8px;
+}
+.contact-nav a{
+	display: block;
+	text-decoration: none;
+	color: #64b0be;
+	padding-bottom: 10px;
+	font-size: 16px;
+	text-align: left;
+
+}
+.contact-nav a:hover{
+
+}
+.que-section{
+	border-top: 1px solid #dfdfdf;
+	width: 230px;
+	margin-left: 8px;
+}
+.que-section h2{
+	padding-top: 43px;
+	font-size: 20px;
+	font-family: helvetica-light;
+}
+.que-section p{
+	padding-left: 0px;
+	padding-bottom: 0px;
+}
+.link-button a{
+	text-decoration: none;
+    padding: 10px 30px;
+    background: linear-gradient(to top, #686868, #595959, #333434);
+    border-radius: 8px;
+    font-family: Helvetica-Light;
+    margin-top: 30px;
+    color: white;
+
+}
+.branding{
+	grid-area: branding;
+	display: flex;
+	flex-direction: row;
+	padding-left: 39px;
+	padding-top: 80px;
+	padding-right: 17px;
+}
+.branding h2{
+	font-size: 30px;
+	font-family: helvetica-light;
+	font-weight: lighter;
+}
+.branding p{
+	padding-top: 20px;
+	padding-right: 20px;
+	text-align: left;
+	padding-right: 10px;
+}
+.b-left{
+	flex: 1;
+}
+.b-right{
+	flex: 1;
+	padding-right: 5px;
+}
+.allsite{
+	grid-area: allsite;
+	display: flex;
+	justify-content: space-between;
+}
+.graphics{
+	flex-basis: 1;
+}
+.design{
+	flex-basis: 1;
+}
+.creative{
+	flex-basis: 1;
+}
+.allsite  h2{
+	font-size: 30px;
+	font-family: helvetica-light;
+	font-weight: lighter;
+	padding-top: 80px;
+	padding-left: 30px;
+}
+.allsite p{
+	font-size: 16px;
+	font-family: helvetica-light;
+	padding-left: 30px;
+	padding-top: 20px;
+}
